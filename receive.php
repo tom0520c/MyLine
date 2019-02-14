@@ -76,7 +76,7 @@
 					"messages" => array (
 						array (
 							"type" => "text",
-							"text" => "Hello. This is push. You say ".$sender_txt
+							"text" => "Hello. This is push. You say ".$sender_userid
 						)
 					)
 				);
