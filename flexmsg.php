@@ -18,7 +18,7 @@
 		  "aspectMode": "cover",
 		  "action": {
 			"type": "uri",
-			"uri": "http://linecorp.com/"
+			"uri": "http://www.taichungphoto.org.tw/tw/index.php"
 		  }
 		},
 		"body": {
