@@ -53,7 +53,7 @@
 
     $ans_txt = "這張發票沒用了，你又製造了一張垃圾";
     foreach ($result_ary as $val) {
-        if($val == "MB-76164441"){
+        if($val == "LY-59978512"){
           $ans_txt = "恭喜您中獎啦，快分紅!!";
         }
     }
