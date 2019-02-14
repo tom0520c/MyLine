@@ -19,10 +19,10 @@
 	fwrite($myfile, "\xEF\xBB\xBF".$json_str); //在字串前加上\xEF\xBB\xBF轉成utf8格式
 
 	$sender_userid = $json_obj->events[0]->source->userId; //取得訊息的發送者id
-	fwrite($myfile,$sender_userid);
-	$profile = $sender_userid->getJSONDecodedBody();
-	$displayName = $profile['displayName'];
-fwrite($myfile,$displayName);
+	//fwrite($myfile,$sender_userid);
+	//$profile = $sender_userid->getJSONDecodedBody();
+	//$displayName = $profile['displayName'];
+//fwrite($myfile,$displayName);
 	$sender_txt = $json_obj->events[0]->message->text;	//取得訊息內容
 	$sender_txtType = $json_obj->events[0]->message->type;	//取得訊息種類
 	$sender_replyToken = $json_obj->events[0]->replyToken; //取得訊息的replyToken
