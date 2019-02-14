@@ -32,7 +32,7 @@
 				array (
 					"image" => array (
 						"source" => array (
-							"imageUri" => "http://139.59.123.8/chtChatBot/20180109_LineBot/".$imageId.".jpeg"
+							"imageUri" => "https://159.65.4.103/cht20190214/cmyLine/".$imageId.".jpeg"
 						)
 					),
 					"features" => array (
