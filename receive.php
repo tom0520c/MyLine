@@ -1,5 +1,17 @@
 <?php
 
+	$bot = new \\LINE\LINEBot(new CurlHTTPClient('your-channel-token'), \['channelSecret' => 'your-channel-secret'\]);
+ 
+	$res = $bot->getProfile('user-id');
+	if ($res->isSucceeded()) {
+	 $profile = $res->getJSONDecodedBody();
+	 $displayName = $profile\['displayName'\];
+ 	$statusMessage = $profile\['statusMessage'\];
+	 $pictureUrl = $profile\['pictureUrl'\];
+	}
+
+
+
 	$json_str = file_get_contents('php://input'); //接收request的body(可以接收除了Content-type為multipart/form-data的資料)
 	$json_obj = json_decode($json_str); //轉成json格式
 	
