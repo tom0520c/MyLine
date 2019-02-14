@@ -1,6 +1,6 @@
 <?php
 
-	 $bot = new \\LINE\LINEBot(new CurlHTTPClient('1646549353'), \[ 'channelSecret' => '915ee782fc4a94ffdd90af9d72dccefe'\]);
+	 $bot = new \\LINE\LINEBot(new CurlHTTPClient('jMq9LqPNycxu5cId9Yb5/NfVph/Jh4hOZlbHUNhqS15E1i7PbPbgISad/Pz7gcC7/hYVP0qFVBF+5YUHratPPdCeeB5/bbNhJBTZFPgZ3QgzVGptElg/BWZFRgU1hab5DZKIdjx/m8lCGjmdEwDVugdB04t89/1O/w1cDnyilFU='), \[ 'channelSecret' => '915ee782fc4a94ffdd90af9d72dccefe'\]);
  
 	$res = $bot->getProfile('user-id');
 	if ($res->isSucceeded()) {
