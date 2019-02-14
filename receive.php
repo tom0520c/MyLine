@@ -1,14 +1,14 @@
 <?php
 
-	// $bot = new \\LINE\LINEBot(new CurlHTTPClient('your-channel-token'), \[ 'channelSecret' => 'your-channel-secret'\]);
+	 $bot = new \\LINE\LINEBot(new CurlHTTPClient('1646549353'), \[ 'channelSecret' => '915ee782fc4a94ffdd90af9d72dccefe'\]);
  
-//$res = $bot->getProfile('user-id');
-//if ($res->isSucceeded()) {
-// $profile = $res->getJSONDecodedBody();
-// $displayName = $profile\['displayName'\];
-// $statusMessage = $profile\['statusMessage'\];
-// $pictureUrl = $profile\['pictureUrl'\];
-//}
+	$res = $bot->getProfile('user-id');
+	if ($res->isSucceeded()) {
+ 	$profile = $res->getJSONDecodedBody();
+ 	$displayName = $profile\['displayName'\];
+ 	$statusMessage = $profile\['statusMessage'\];
+	$pictureUrl = $profile\['pictureUrl'\];
+	/}
 
 
 
