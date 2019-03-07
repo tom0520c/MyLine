@@ -116,7 +116,7 @@
 					"messages" => array (
 						array (
 							"type" => "image",
-							"originalContentUrl" => "https://www.w3schools.com/css/paris.jpg",
+							"originalContentUrl" => "https://photo.xuite.net/tom0520c/1938912/15.jpg",
 							"previewImageUrl" => "https://www.nasa.gov/sites/default/themes/NASAPortal/images/feed.png"
 						)
 					)
